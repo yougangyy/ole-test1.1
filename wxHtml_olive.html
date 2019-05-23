@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta content="fullscreen=yes,preventMove=no" name="ML-Config" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no; email=no" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="viewport" content="width=750,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OLE旗下产品Olive宣传片</title>
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/video-js.min.css">
+</head>
+<style>
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .video-js {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+    }
+</style>
+
+<body>
+
+
+    <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered vjs-fluid" controls
+        preload="none" >
+        <source src="http://ole-room.oss-cn-shanghai.aliyuncs.com/olefile/olive2018.mp4" type="video/mp4">
+    </video>
+</body>
+<script src="./js/video.min.js"></script>
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script>
+    var player = videojs('example_video_1', {
+        muted: true,
+        controls: true / false,
+        height: 1000,
+        width: 300,
+        loop: true,
+        // 更多配置.....
+    });
+    // $().ready(function(){
+    //     window.location.href="http://ole-room.oss-cn-shanghai.aliyuncs.com/olefile/olive2018.mp4"
+
+    // })
+</script>
+
+</html>

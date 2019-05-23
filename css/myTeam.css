@@ -1,0 +1,463 @@
+html,body {
+    background: #292C3C;
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+div {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+
+.notScroll {
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    margin: .14rem auto 0;
+    position: relative;
+}
+
+.header .header-title {
+    font-size: .14rem;
+    color: #fff;
+    margin-left: .27rem;
+}
+
+/* 1级会员样式 */
+.header .header-box {
+    margin-top: .07rem;
+    width: 100%;
+    height: 2.54rem;
+    /* height: 3.01rem; */
+    background: url("../image/myTeam_back0.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.header .header-box .header-boxTop {
+    height: .25rem;
+}
+
+.header .header-box .header-boxTop span {
+    float: left;
+    width: .76rem;
+    height: .25rem;
+    font: .12rem/.25rem "";
+    color: #595959;
+    background: url("../image/myTeam_trim1.png");
+    background-size: 100%;
+    text-align: center;
+    margin-left: .26rem;
+}
+
+.header .header-box .header-boxTop i {
+    font-size: .12rem;
+    color: #595959;
+    float: right;
+    margin: .08rem .39rem 0 0;
+}
+
+.header .header-box .star {
+    display: block;
+    width: .72rem;
+    height: .47rem;
+    margin: .12rem auto 0;
+}
+
+
+.header .header-box .header-boxStrip {
+    width: 2.66rem;
+    height: .1rem;
+    margin: .17rem auto 0;
+}
+
+.header .header-box .header-boxStrip span {
+    display: block;
+    width: .22rem;
+    height: .1rem;
+    float: left;
+    background: #fff;
+    border-radius: .05rem;
+}
+
+.header .header-box .header-boxStrip span img {
+    display: block;
+    width: .14rem;
+    height: .1rem;
+    margin: 0 auto;
+}
+
+.header .header-box .header-boxStrip p {
+    float: left;
+    width: 2.22rem;
+    height: .03rem;
+    background: rgba(255, 255, 255, .6);
+    margin-top: .03rem;
+}
+
+.header .header-box .header-boxStrip b {
+    float: left;
+    display: block;
+    width: .5rem;
+    height: .03rem;
+    background: #fff;
+}
+
+.header .header-box .header-boxSpeed {
+    display: block;
+    margin: .11rem 0 0 1.37rem;
+    font: .12rem/.17rem "";
+    color: #fff;
+}
+
+/* 普通用户样式 */
+.grade-left {
+    float: left;
+    margin: .31rem 0 0 .49rem;
+}
+
+.grade-left .grade-text {
+    font-size: .24rem;
+    color: #44536C;
+
+}
+
+.grade-speed {
+    margin-top: .24rem;
+}
+
+.grade-speed .grade-img {
+    display: block;
+    width: .22rem;
+    height: .1rem;
+    float: left;
+    background: #fff;
+    border-radius: .05rem;
+}
+
+.grade-speed .grade-img img {
+    display: block;
+    width: .14rem;
+    height: .1rem;
+    margin: 0 auto;
+}
+
+.grade-speed {
+    height: .1rem;
+}
+
+.grade-speed p {
+    float: left;
+    width: 1.41rem;
+    height: .03rem;
+    background: rgba(255, 255, 255, .6);
+    margin-top: .03rem;
+}
+
+.grade-speed p b {
+    float: left;
+    display: block;
+    width: .5rem;
+    height: .03rem;
+    background: #fff;
+}
+
+.grade-grow {
+    display: block;
+    margin-top: .12rem;
+    font: .12rem/.17rem "";
+    color: #fff;
+}
+
+.grade-right {
+    margin: .34rem .49rem 0 0;
+    float: right;
+}
+
+.grade-right span {
+    display: block;
+    color: #233553;
+    font-size: .12rem;
+
+}
+
+
+/* 3级会员样式 */
+.grade3-boxTop {
+    height: .25rem;
+}
+
+.grade3-boxTop span {
+    float: left;
+    width: .76rem;
+    height: .25rem;
+    font: .12rem/.25rem "";
+    color: #DDAD5E;
+    background: url("../image/myTeam_trim3.png");
+    background-size: 100%;
+    text-align: center;
+    margin-left: .26rem;
+}
+
+.grade3-boxTop i {
+    font-size: .12rem;
+    color: #DDAD5E;
+    float: right;
+    margin: .08rem .39rem 0 0;
+}
+
+.grade3-star {
+    display: block;
+    width: .72rem;
+    height: .47rem;
+    margin: .12rem auto 0;
+}
+
+.grade3-team {
+    display: block;
+    font-size: .12rem;
+    color: #fff;
+    margin: .11rem 0 0 .59rem;
+}
+
+.grade-3 p {
+    width: 2.57rem;
+    height: .05rem;
+    background: rgba(255, 255, 255, .6);
+    margin: .17rem 0 0 .59rem;
+}
+
+.grade-3 p b {
+    display: block;
+    height: .05rem;
+    width: .5rem;
+    background: #fff;
+}
+
+.grade3-boxspeed {
+    display: block;
+    font-size: .1rem;
+    margin-top: .05rem;
+    color: #fff;
+    text-align: center;
+}
+
+.grade3-progress {
+    margin: .12rem 0 0 .61rem;
+    text-align: center;
+}
+
+.grade3-progress img {
+    float: left;
+    width: .14rem;
+    height: .15rem;
+
+}
+
+.grade3-progress span {
+    float: left;
+    margin-left: .06rem;
+    font: .12rem/.16rem "";
+    color: #FFC360;
+}
+
+
+/* 天使会员样式 */
+
+.angel-boxTop {
+    height: .25rem;
+}
+
+.angel-boxTop span {
+    float: left;
+    width: .76rem;
+    height: .25rem;
+    font: .12rem/.25rem "";
+    color: #EBB257;
+    background: url("../image/myTeam_trim4.png");
+    background-size: 100%;
+    text-align: center;
+    margin-left: .26rem;
+}
+
+.angel-boxTop i {
+    font-size: .12rem;
+    color: #EBB257;
+    float: right;
+    margin: .08rem .39rem 0 0;
+}
+
+.grade-4 p {
+    text-align: center;
+    font-size: .12rem;
+    color: #FFD081;
+    margin: .14rem auto 0;
+}
+
+.angel {
+    display: block;
+    width: 1.4rem;
+    height: .68rem;
+    margin: .1rem auto 0;
+}
+
+
+
+.header ul {
+    width: 3.48rem;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: .14rem;
+    bottom: .2rem;
+}
+
+.header ul li {
+    height: .55rem;
+    width: .65rem;
+    text-align: center;
+    font-weight: 600;
+    padding-top: .07rem;
+}
+
+.header ul li span {
+    margin: 0;
+    font-size: .14rem;
+    color: #292C3C;
+}
+
+.header ul li p {
+    font-size: .12rem;
+    color: #292C3C;
+    margin-top: .07rem;
+}
+
+.main {
+    /* height: 4.11rem; */
+    min-height: 3.8rem;
+    background: #F5F5F5;
+    width: 3.47rem;
+    display: flex;
+    justify-content: space-around;
+    margin: -0.11rem 0 0 .135rem;
+    padding-top: .07rem;
+}
+
+.main .main-bodyOne {
+    text-align: center;
+    /* height: 100%; */
+    width: .87rem;
+    background: #fff;
+}
+
+.main .main-bodyOne span {
+    display: block;
+    white-space:nowrap;
+    overflow: hidden;
+    color: #1E1E1E;
+    height: .5rem;
+    font: .12rem/.5rem "";
+}
+
+.main .main-bodyTwo {
+    text-align: center;
+    height: 100%;
+    width: .87rem;
+}
+
+.main .main-bodyTwo span {
+    display: block;
+    color: #1E1E1E;
+    height: .5rem;
+    font: .12rem/.5rem "";
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+
+
+.main .main-bodyThree {
+    text-align: center;
+    /* height: 100%; */
+    width: .87rem;
+    background: #fff;
+}
+
+.main .main-bodyThree span {
+    display: block;
+    color: #1E1E1E;
+    height: .5rem;
+    font: .12rem/.5rem "";
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+.main .main-bodyThree p {
+    font-size: .12rem;
+    color: #1E1E1E;
+    margin: .45rem 0 .45rem -.8rem;
+}
+
+.main .main-bodyFour {
+    text-align: center;
+    height: 100%;
+    width: .87rem;
+    font-size: .12rem;
+}
+
+.main .main-bodyFour span {
+    display: block;
+    color: #1E1E1E;
+    height: .5rem;
+    font: .12rem/.5rem "";
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.title {
+    font-weight: 900;
+    font-size: .14rem;
+}
+
+
+
+
+.frame {
+    display: none;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    /* height: 3rem; */
+    background: #000;
+    opacity: .24;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.frame {
+    position: absolute;
+    /* top: 0; */
+    top: .17rem;
+    left: .33rem;
+}
+
+.frame .card {
+    display: block;
+    width: 3.09rem;
+    height: 4.89rem;
+}
+
+.frame .close {
+    display: block;
+    width: .31rem;
+    height: .31rem;
+    margin: .23rem auto 0;
+}

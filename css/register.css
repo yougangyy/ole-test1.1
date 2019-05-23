@@ -1,0 +1,205 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+
+.header{
+    width: 100%;
+    margin-top: .31rem;
+    text-align: center;
+}
+
+.header img{
+    display: block;
+    width: .63rem;
+    height: .7rem;
+    margin: 0 auto;
+}
+
+.header span{
+    display: block;
+    margin-top: .21rem;
+    font-size: 28px;
+    color: #1E1E1E;
+}
+
+.main{
+    margin: .38rem 0 0 .23rem;
+}
+
+
+input::-webkit-input-placeholder {
+    color: #C0C0C0;
+    opacity: 1;
+}
+
+
+.main-phone{
+    width: 3.29rem;
+    height: .36rem;
+    border-bottom: 1px solid #F5F5F5;
+
+}
+
+.main-phone .phone{
+    float: left;
+    width: .18rem;
+    height: .22rem;
+    margin: .07rem 0 0 .04rem;
+}
+
+.main-phone .phone-text{
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-left: .08rem;
+    font: .16rem/.36rem "";
+    color: #C0C0C0;
+}
+
+.main-phone .clear{
+    float: right;
+    width: .2rem;
+    height: .2rem;
+    margin: .09rem .04rem 0 0;
+
+}
+
+
+.main-verification{
+    width: 3.29rem;
+    height: .4rem;
+    border-bottom: 1px solid #F5F5F5;
+    margin-top: .19rem;
+}
+
+.main-verification img{
+    float: left;
+    width: .18rem;
+    height: .22rem;
+    margin: .09rem 0 0 .04rem;
+}
+
+.main-verification .verification-text{
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-left: .08rem;
+    font: .16rem/.36rem "";
+    color: #C0C0C0;
+}
+
+.main-verification .obtain{
+    float: right;
+    width: .89rem;
+    height: .25rem;
+    border-radius: .06rem;
+    border: 1px solid #637DFF;
+    font: .14rem/.25rem "";
+    color: #637DFF;
+    text-align: center;
+    margin: .07rem .05rem 0 0;
+}
+
+
+.main-password{
+    width: 3.29rem;
+    height: .36rem;
+    border-bottom: 1px solid #F5F5F5;
+    margin-top: .2rem;
+}
+
+.main-password .lock{
+    float: left;
+    width: .18rem;
+    height: .22rem;
+    margin: .07rem 0 0 .04rem;
+}
+
+.main-password .password-text{
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-left: .08rem;
+    font: .16rem/.36rem "";
+    color: #C0C0C0;
+}
+
+.main-password .password-eyes{
+    float: right;
+    width: .2rem;
+    height: .17rem;
+    margin: .09rem .04rem 0 0;
+}
+
+.main-code{
+    width: 3.29rem;
+    height: .36rem;
+    border-bottom: 1px solid #F5F5F5;
+    margin-top: .18rem;
+}
+
+.main-code img{
+    float: left;
+    width: .18rem;
+    height: .22rem;
+    margin: .07rem 0 0 .04rem;
+}
+
+.main-code .code-text{
+    float: left;
+    margin-left: .08rem;
+    font: .16rem/.36rem "";
+    color: #C0C0C0;
+}
+
+
+.register-button{
+    width: 3.3rem;
+    height: .45rem;
+    margin: .31rem 0 0 .23rem;
+    font: .18rem/.45rem "";
+    color: #fff;
+    background: #637DFF;
+    border-radius: .06rem;
+    text-align: center;
+}
+
+.download{
+    margin: .77rem 0 0 1.19rem;
+    font-size: 28px;
+    color: #1E1E1E;
+}
+.download span{
+    color: #637DFF;
+}
+
+
+.error{
+    height: .42rem;
+    border-radius: .21rem;
+    background: #1E1E1E;
+    opacity: .9;
+    position: absolute;
+    bottom: 0.8rem;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+
+.error img{
+    float: left;
+    width: .19rem;
+    height: .19rem;
+    margin: .1rem .08rem 0 .17rem;
+}
+.error span{
+    float: left;
+    font: .16rem/.42rem "";
+    margin-right: .19rem;
+    color: #fff;
+}

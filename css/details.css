@@ -1,0 +1,57 @@
+.main {
+    padding: .45rem .21rem 0 .16rem;
+
+}
+
+.main-top {
+    /* text-align: center; */
+}
+
+.main-top span {
+    font: 900 .28rem/.4rem "";
+    color: #1E1E1E;
+    margin-left: 1.06rem;
+}
+
+.main-content {
+    overflow: hidden;
+    margin-top: .29rem;
+}
+
+.main-content div {
+    height: .2rem;
+    margin-top: .25rem;
+}
+
+.main-content span {
+    font: .14rem/.2rem "";
+    color: #7F7F7F;
+    float: left;
+}
+
+.main-content p {
+    font: .14rem/.2rem "";
+    color: #1E1E1E;
+    float: right;
+
+}
+
+.main-content .main-txid p {
+    width: 2.7rem;
+    word-wrap: break-word;
+    font: .12rem/.17rem "";
+}
+
+.main-content button {
+    background: url("../image/copyicon.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    display: inline-block;
+    width: .1rem;
+    height: .1rem;
+}
+

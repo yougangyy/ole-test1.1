@@ -1,0 +1,22 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.copy{
+    position: absolute;
+    bottom: .35rem;
+    left: .22rem;
+    width: 3.31rem;
+    height: .46rem;
+    background:-webkit-linear-gradient(left, #73B8FF, #637DFF);
+    font: .18rem/.46rem "";
+    color: #fff;
+    text-align: center;
+}
